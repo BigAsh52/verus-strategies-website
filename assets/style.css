@@ -309,24 +309,6 @@ footer .foot-note{font-size:13px;line-height:1.7;max-width:280px;color:#7C93A3;}
 }
 
 
-/* Logo mark — pure CSS wordmark (swap for the real logo file whenever convenient) */
-.logo-mark{display:inline-flex;align-items:center;gap:9px;}
-.logo-mark .logo-glyph{
-    width:26px;height:26px;border-radius:6px;
-    background:var(--blue);
-    color:#fff;font-family:'Fraunces',serif;font-weight:650;font-size:16px;
-    display:flex;align-items:center;justify-content:center;
-    flex-shrink:0;
-}
-.logo-mark .logo-text{
-    font-family:'Fraunces',serif;font-weight:600;font-size:16px;letter-spacing:0.01em;color:var(--navy);
-    white-space:nowrap;
-}
-.logo-mark.on-dark .logo-glyph{background:#fff;color:var(--navy);}
-.logo-mark.on-dark .logo-text{color:#fff;}
-.logo-mark.footer-size .logo-glyph{width:22px;height:22px;font-size:13px;border-radius:5px;}
-.logo-mark.footer-size .logo-text{font-size:14px;}
-
 .compare .verus .eyebrow::before{background:var(--brass-light);}
 .compare h3{font-size:20px;margin:10px 0 18px;font-weight:600;}
 .compare ul{margin:0;padding:0;list-style:none;}
